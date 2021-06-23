@@ -23,10 +23,6 @@ public class getSubsequence {
         ArrayList<String> mres=new ArrayList<>();
         for(String val:rres){
             mres.add(""+val);
-
-        }
-        for(String val:rres){
-
             mres.add(ch+val);
         }
         return mres;
