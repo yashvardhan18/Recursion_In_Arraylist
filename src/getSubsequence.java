@@ -9,6 +9,7 @@ public class getSubsequence {
         ArrayList<String> res=gss(str);
         System.out.println(res);
 
+        
     }
 
     public static ArrayList<String> gss(String str) {
