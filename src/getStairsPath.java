@@ -9,7 +9,6 @@ public class getStairsPath {
         ArrayList<String> paths = getStairPaths(n);
         System.out.println(paths);
     }
-
     
     public static ArrayList<String> getStairPaths(int n) {
         if(n <= 0){
